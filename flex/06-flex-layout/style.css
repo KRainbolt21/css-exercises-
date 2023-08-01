@@ -35,5 +35,10 @@ input {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 10px;
+  gap: 15px;
+}
+
+li a{
+  text-decoration: none;
+  color: darkslategrey;
 }
