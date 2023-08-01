@@ -74,7 +74,7 @@ button.cancel {
 .middle {
   display: flex;
   flex-direction: column;
-  align-items: space-evenly;
+  align-items: center;
 }
 
 .top {
@@ -85,4 +85,20 @@ button.cancel {
 
 .text {
   flex-wrap: wrap;
+  flex: auto;
+  width: 380px;
+  margin-left: 62px;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 62px;
+  margin-top: 15px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: 20px;
 }
