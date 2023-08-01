@@ -12,17 +12,20 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .content {
   display: flex;
-  justify-content: space-around;
-
+  gap: 52px;
+  justify-content: center;
 }
 
 .image {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 /* do not edit this footer */
