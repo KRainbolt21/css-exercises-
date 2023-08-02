@@ -33,8 +33,14 @@ body {
   height: 100%;
   background: royalblue;
   box-sizing: border-box;
+  flex: none;
+  padding: 16px;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
+
 
 .card {
   border: 1px solid #eee;
@@ -49,4 +55,9 @@ body {
   display: flex;
   width: 500px;
   flex-wrap: wrap;
+  padding: 32px;
+}
+
+.middle {
+  display: flex;
 }
