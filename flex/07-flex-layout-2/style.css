@@ -40,7 +40,12 @@ body {
   justify-content: flex-start;
 }
 
-
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: none;
+}
 
 .card {
   border: 1px solid #eee;
