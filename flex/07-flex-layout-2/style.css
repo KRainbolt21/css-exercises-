@@ -58,6 +58,7 @@ li, a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 200px;
+  padding: 8px;
   flex-wrap: wrap;
   flex: auto;
 }
@@ -67,6 +68,8 @@ li, a {
   width: 500px;
   flex-wrap: wrap;
   padding: 32px;
+  gap: 20px;
+  flex: auto;
 }
 
 .middle {
