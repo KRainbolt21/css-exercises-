@@ -47,4 +47,6 @@ body {
 
 .text {
   display: flex;
+  width: 500px;
+  flex-wrap: wrap;
 }
